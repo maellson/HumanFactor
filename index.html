@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HumaniQ AI - Features Dashboard</title>
+    <meta name="description" content="Dashboard completo de features da HumaniQ AI - A primeira IA onisciente para fatores humanos empresariais">
+    <meta name="keywords" content="IA, RH, Recursos Humanos, Inteligência Artificial, Dashboard, Features">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .module {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .module:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .module-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #f0f0f0;
+        }
+
+        .module-icon {
+            font-size: 2.5rem;
+            margin-right: 15px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .talent { background: linear-gradient(45deg, #FF6B6B, #FF8E8E); }
+        .experience { background: linear-gradient(45deg, #4ECDC4, #44A08D); }
+        .intelligence { background: linear-gradient(45deg, #45B7D1, #96CEB4); }
+        .benefits { background: linear-gradient(45deg, #FFA726, #FF7043); }
+        .analytics { background: linear-gradient(45deg, #AB47BC, #8E24AA); }
+
+        .module-title {
+            flex: 1;
+        }
+
+        .module-title h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .module-title p {
+            color: #7f8c8d;
+            font-size: 1rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-left: 4px solid transparent;
+            position: relative;
+        }
+
+        .feature-card:hover {
+            background: #e3f2fd;
+            border-left-color: #2196F3;
+            transform: translateX(5px);
+        }
+
+        .feature-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .feature-description {
+            color: #5a6c7d;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .feature-roi {
+            background: linear-gradient(45deg, #27ae60, #2ecc71);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .stats-overview {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: scale(1.05);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .toggle-details {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 0.9rem;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .toggle-details:hover {
+            background: linear-gradient(45deg, #2980b9, #3498db);
+            transform: translateY(-1px);
+        }
+
+        .feature-details {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .feature-details.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .tech-stack {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .tech-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tech-item {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+        }
+
+        .tech-item:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+
+        .cta-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .cta-button {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .modules-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .module {
+                padding: 20px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white !important;
+            }
+            
+            .module {
+                break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header loading">
+            <h1>🧠 HumaniQ AI</h1>
+            <p>Dashboard Completo de Features - A Primeira IA Onisciente para Fatores Humanos Empresariais</p>
+        </div>
+
+        <div class="stats-overview loading">
+            <h2 style="text-align: center; margin-bottom: 20px; color: #2c3e50;">📊 Visão Geral do Impacto</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Features Integradas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">847%</div>
+                    <div class="stat-label">ROI em 3 Anos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">70%</div>
+                    <div class="stat-label">Redução Turnover</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Meses Payback</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">35%</div>
+                    <div class="stat-label">Aumento Produtividade</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Módulos Principais</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section loading">
+            <h2 style="color: #2c3e50; margin-bottom: 15px;">🚀 Revolucione a Gestão de Pessoas da Sua Empresa</h2>
+            <p style="color: #7f8c8d; margin-bottom: 20px;">Descubra como a HumaniQ AI pode transformar seus resultados em recursos humanos</p>
+            <a href="mailto:contato@humaniq.ai" class="cta-button">📧 Solicitar Demo</a>
+            <a href="#" class="cta-button" onclick="window.print()">📄 Baixar Apresentação</a>
+        </div>
+
+        <div class="modules-grid">
+            <!-- MÓDULO 1: TALENT INTELLIGENCE -->
+            <div class="module loading">
+                <div class="module-header">
+                    <div class="module-icon talent">🎯</div>
+                    <div class="module-title">
+                        <h2>Talent Intelligence</h2>
+                        <p>IA para otimização de talentos e contratações inteligentes</p>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🧬 Cultural DNA Mapping</div>
+                        <div class="feature-description">Mapeia o DNA cultural único da empresa usando metodologias científicas (Hofstede, Big Five, Jung)</div>
+                        <div class="feature-roi">ROI: 95%+ fit cultural</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Como funciona:</strong> Entrevistas estruturadas com liderança → Análise com Claude AI → Perfil cultural detalhado<br><br>
+                            <strong>Metodologias:</strong> 6 dimensões Hofstede + Big Five organizacional + Tipos Jung<br><br>
+                            <strong>Output:</strong> DNA cultural detalhado para contratações precisas
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🏆 REPLAY - Funcionário Modelo</div>
+                        <div class="feature-description">Identifica funcionários modelo por cargo e extrai padrões de excelência para replicação</div>
+                        <div class="feature-roi">ROI: +25% performance equipe</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Funcionalidade:</strong> Analisa top performers → Extrai DNA do sucesso → Aplica insights nos demais<br><br>
+                            <strong>Insights gerados:</strong> Padrões comportamentais + Competências chave + Gaps da equipe<br><br>
+                            <strong>Aplicação:</strong> Treinamentos direcionados + Contratações precisas
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🎯 Smart Hiring Algorithm</div>
+                        <div class="feature-description">Algoritmo que encontra candidatos com 95%+ de fit cultural e técnico</div>
+                        <div class="feature-roi">ROI: -70% turnover 12 meses</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Processo:</strong> CV + entrevista IA → Análise multidimensional → Score de fit<br><br>
+                            <strong>Fatores analisados:</strong> Competências técnicas + Fit cultural + Potencial crescimento<br><br>
+                            <strong>Resultado:</strong> Ranking candidatos + Relatório detalhado + Recomendações
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">⚖️ Bias Detection System</div>
+                        <div class="feature-description">Detecta e elimina vieses inconscientes no processo de seleção</div>
+                        <div class="feature-roi">ROI: +40% diversidade</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Monitoramento:</strong> Padrões discriminatórios + Linguagem não inclusiva + Equidade em promoções<br><br>
+                            <strong>Algoritmos:</strong> Análise estatística + NLP para vieses + Correções automáticas<br><br>
+                            <strong>Compliance:</strong> Relatórios diversidade + Alertas em tempo real
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 2: EMPLOYEE EXPERIENCE -->
+            <div class="module loading">
+                <div class="module-header">
+                    <div class="module-icon experience">🤖</div>
+                    <div class="module-title">
+                        <h2>Employee Experience</h2>
+                        <p>Experiência personalizada e acompanhamento contínuo do funcionário</p>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🧠 AI Career Coach</div>
+                        <div class="feature-description">Terapeuta ocupacional digital que conversa 24/7 com funcionários</div>
+                        <div class="feature-roi">ROI: -60% afastamentos stress</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Conversas personalizadas:</strong> Entende função + demandas + objetivos pessoais<br><br>
+                            <strong>Orientações:</strong> Bem-estar + Evolução carreira + Trilhas estudo + Comportamento<br><br>
+                            <strong>Monitoramento:</strong> Sinais burnout + Níveis engajamento + Satisfação
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🗺️ Employee Journey Mapping</div>
+                        <div class="feature-description">Mapeia e otimiza toda jornada do funcionário na empresa</div>
+                        <div class="feature-roi">ROI: +50% satisfação onboarding</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Jornada completa:</strong> Onboarding → Desenvolvimento → Avaliações → Promoções<br><br>
+                            <strong>Otimização:</strong> Identifica friction points + Personaliza experiência + Moments que importam<br><br>
+                            <strong>Métricas:</strong> NPS por etapa + Time to productivity + Retention por fase
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">📚 Predictive Career Pathing</div>
+                        <div class="feature-description">Mapeia evolução profissional ideal baseada em perfil e oportunidades</div>
+                        <div class="feature-roi">ROI: +80% retenção talentos</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Análise:</strong> Competências atuais + Potencial + Objetivos pessoais + Oportunidades internas<br><br>
+                            <strong>Roadmap:</strong> Próximos passos + Skills necessárias + Timeline realista<br><br>
+                            <strong>Acompanhamento:</strong> Progresso skills + Feedback contínuo + Ajustes de rota
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🏥 Wellness Integration</div>
+                        <div class="feature-description">Benefícios conectados ao bem-estar e saúde mental</div>
+                        <div class="feature-roi">ROI: -45% afastamentos</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Monitoramento:</strong> Stress patterns + Saúde mental + Sinais burnout<br><br>
+                            <strong>Intervenções:</strong> Benefícios preventivos + Terapia + Wellness programs<br><br>
+                            <strong>Personalização:</strong> Seasonal adjustments + Necessidades individuais
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 3: BENEFITS OPTIMIZATION -->
+            <div class="module loading">
+                <div class="module-header">
+                    <div class="module-icon benefits">💎</div>
+                    <div class="module-title">
+                        <h2>Benefits Optimization</h2>
+                        <p>Personalização inteligente de benefícios por funcionário</p>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">👤 Lifestyle Profiler</div>
+                        <div class="feature-description">Mapeia preferências individuais para personalizar benefícios</div>
+                        <div class="feature-roi">ROI: +40% satisfação benefícios</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Perfil completo:</strong> Estrutura familiar + Modalidade trabalho + Transporte + Objetivos vida<br><br>
+                            <strong>Exemplo:</strong> "João trabalha remoto + prefere comida caseira → reduz VR, aumenta auxílio internet"<br><br>
+                            <strong>Otimização:</strong> Benefícios sob medida + Economia empresa + Satisfação funcionário
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🛒 Benefits Marketplace</div>
+                        <div class="feature-description">Plataforma para troca inteligente de benefícios entre funcionários</div>
+                        <div class="feature-roi">ROI: -30% budget benefícios</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Sistema de pontos:</strong> Cada benefício tem valor em pontos + Funcionários trocam entre si<br><br>
+                            <strong>Marketplace interno:</strong> Serviços + Skills + Benefícios flexíveis<br><br>
+                            <strong>Otimização automática:</strong> IA sugere trocas vantajosas para todos
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🔮 Life Events Predictor</div>
+                        <div class="feature-description">Antecipa mudanças de vida e ajusta benefícios proativamente</div>
+                        <div class="feature-roi">ROI: +60% engajamento</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Predições:</strong> Casamento → benefícios familiares + Filhos → auxílio creche + Mudança → transporte<br><br>
+                            <strong>Algoritmos:</strong> Padrões comportamentais + Dados demográficos + Machine learning<br><br>
+                            <strong>Ação proativa:</strong> Empresa antecipa necessidades + Oferece suporte no momento certo
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">📊 Cost Optimization Dashboard</div>
+                        <div class="feature-description">Dashboard para RH otimizar custos e ROI de benefícios</div>
+                        <div class="feature-roi">ROI: -25% custos benefícios</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Métricas:</strong> ROI por benefício + Utilização real + Satisfaction scores + Waste detection<br><br>
+                            <strong>Otimizações:</strong> Renegociação fornecedores + Budget reallocation + Benchmarking mercado<br><br>
+                            <strong>Insights:</strong> Quais benefícios cortar + Onde investir + Economia potencial
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 4: ORGANIZATIONAL INTELLIGENCE -->
+            <div class="module loading">
+                <div class="module-header">
+                    <div class="module-icon intelligence">📡</div>
+                    <div class="module-title">
+                        <h2>Organizational Intelligence</h2>
+                        <p>Inteligência organizacional e análise de comunicação interna</p>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">💬 Communication Intelligence</div>
+                        <div class="feature-description">Análise de comunicação para identificar perfis e detectar problemas</div>
+                        <div class="feature-roi">ROI: -50% conflitos internos</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Análises:</strong> Sentiment analysis + Stress detection + Behavioral profiling + Compliance monitoring<br><br>
+                            <strong>Fontes:</strong> E-mails + Slack + Teams + Pesquisas + Feedback 360<br><br>
+                            <strong>Insights:</strong> Clima organizacional + Relacionamentos + Riscos + Oportunidades melhoria
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🔥 Team Dynamics Optimizer</div>
+                        <div class="feature-description">Otimiza formação e dinâmica de equipes para máxima produtividade</div>
+                        <div class="feature-roi">ROI: +30% produtividade equipes</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Análise:</strong> Personalidades complementares + Skills mix + Estilos comunicação<br><br>
+                            <strong>Otimização:</strong> Formação equipes ideais + Resolução conflitos + Reorganizações estratégicas<br><br>
+                            <strong>Monitoramento:</strong> Performance equipe + Harmonia interna + Pontos de atrito
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">⚠️ Predictive Turnover</div>
+                        <div class="feature-description">Prediz risco de saída de funcionários com 90% de precisão</div>
+                        <div class="feature-roi">ROI: -80% saídas inesperadas</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Score de risco:</strong> 0-100 por funcionário + Fatores de risco + Timeline provável saída<br><br>
+                            <strong>Sinais:</strong> Engajamento ↓ + Comunicação ↓ + Performance ↓ + Satisfação benefícios ↓<br><br>
+                            <strong>Ações preventivas:</strong> Intervenção RH + Melhoria condições + Career coaching
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🧭 Cultural Fit Evolution</div>
+                        <div class="feature-description">Acompanha evolução cultural da empresa ao longo do tempo</div>
+                        <div class="feature-roi">ROI: +45% adaptação mudanças</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Tracking:</strong> Mudanças culturais + Resistências + Influenciadores + Adaptação<br><br>
+                            <strong>Estratégias:</strong> Change management + Comunicação direcionada + Liderança cultural<br><br>
+                            <strong>Métricas:</strong> Velocidade transformação + Adoption rate + Resistência pontos
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 5: STRATEGIC ANALYTICS -->
+            <div class="module loading">
+                <div class="module-header">
+                    <div class="module-icon analytics">📈</div>
+                    <div class="module-title">
+                        <h2>Strategic Analytics</h2>
+                        <p>Analytics estratégico e inteligência de mercado</p>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🎛️ Executive Dashboard</div>
+                        <div class="feature-description">Dashboard executivo com métricas e insights em tempo real</div>
+                        <div class="feature-roi">ROI: 5x decisões assertivas</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Métricas:</strong> KPIs pessoas + Predictive insights + ROI iniciativas + Benchmarking<br><br>
+                            <strong>Visão 360°:</strong> Talent pipeline + Engagement trends + Cost optimization + Risk management<br><br>
+                            <strong>Action items:</strong> Priorização por impacto + Recomendações IA + Timeline execução
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🎯 Skill Gap Intelligence</div>
+                        <div class="feature-description">Identifica lacunas de competências e oportunidades internas</div>
+                        <div class="feature-roi">ROI: -50% contratações externas</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Mapeamento:</strong> Skills atuais vs necessárias + Talentos ocultos + Potential interno<br><br>
+                            <strong>Oportunidades:</strong> Remanejamentos + Promoções internas + Desenvolvimento direcionado<br><br>
+                            <strong>Planejamento:</strong> Contratações estratégicas + Training roadmap + Succession planning
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🌍 Market Intelligence Connector</div>
+                        <div class="feature-description">Conecta com inteligência de mercado para benchmarking automático</div>
+                        <div class="feature-roi">ROI: +25% competitividade talentos</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Benchmarking:</strong> Salários mercado + Benefícios competitivos + Trends competências<br><br>
+                            <strong>Competitividade:</strong> Análise vs concorrentes + Employer branding + Attraction strategies<br><br>
+                            <strong>Insights:</strong> Market opportunities + Talent availability + Compensation optimization
+                        </div>
+                    </div>
+
+                    <div class="feature-card" onclick="toggleDetails(this)">
+                        <div class="feature-title">🔍 Predictive Benefits Modeling</div>
+                        <div class="feature-description">Modela cenários futuros de benefícios e necessidades</div>
+                        <div class="feature-roi">ROI: +35% eficiência budget</div>
+                        <button class="toggle-details">Ver detalhes</button>
+                        <div class="feature-details">
+                            <strong>Predições:</strong> Necessidades futuras + Mudanças demográficas + Seasonal patterns<br><br>
+                            <strong>Cenários:</strong> Budget planning + New benefits testing + ROI projections<br><br>
+                            <strong>Otimização:</strong> Resource allocation + Timing launches + Impact measurement
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-stack loading">
+            <h2 style="color: #2c3e50; margin-bottom: 15px;">🛠️ Stack Tecnológico</h2>
+            <div class="tech-items">
+                <div class="tech-item">Claude AI (Anthropic)</div>
+                <div class="tech-item">Big Five Framework</div>
+                <div class="tech-item">Hofstede Dimensions</div>
+                <div class="tech-item">Jung Types</div>
+                <div class="tech-item">Evidence-Based Treatment</div>
+                <div class="tech-item">Natural Language Processing</div>
+                <div class="tech-item">Machine Learning</div>
+                <div class="tech-item">Predictive Analytics</div>
+                <div class="tech-item">Real-time Monitoring</div>
+                <div class="tech-item">API Integrations</div>
+                <div class="tech-item">Data Security</div>
+                <div class="tech-item">LGPD Compliance</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 HumaniQ AI - Transformando a Gestão de Pessoas através da Inteligência Artificial</p>
+            <p>Desenvolvido com 🧠 Claude AI da Anthropic</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleDetails(card) {
+            const details = card.querySelector('.feature-details');
+            const button = card.querySelector('.toggle-details');
+            
+            if (details.classList.contains('active')) {
+                details.classList.remove('active');
+                button.textContent = 'Ver detalhes';
+            } else {
+                // Fechar outros detalhes abertos
+                document.querySelectorAll('.feature-details.active').forEach(detail => {
+                    detail.classList.remove('active');
+                    detail.parentElement.querySelector('.toggle-details').textContent = 'Ver detalhes';
+                });
+                
+                details.classList.add('active');
+                button.textContent = 'Ocultar detalhes';
+            }
+        }
+
+        // Animações de entrada
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadingElements = document.querySelectorAll('.loading');
+            
+            loadingElements.forEach((element, index) => {
+                setTimeout(() => {
+                    element.style.animationDelay = `${index * 0.1}s`;
+                }, index * 100);
+            });
+
+            // Adicionar efeitos de hover
+            const cards = document.querySelectorAll('.feature-card');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-2px) translateX(5px)';
+                    this.style.boxShadow = '0 8px 25px rgba(0,0,0,0.15)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) translateX(0)';
+                    this.style.boxShadow = 'none';
+                });
+            });
+
+            // Smooth scroll para links internos
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+
+        // Analytics simples (opcional)
+        function trackEvent(eventName, properties) {
+            console.log('Event:', eventName, properties);
+            // Aqui você pode integrar com Google Analytics ou outro serviço
+        }
+
+        // Rastrear cliques em features
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('toggle-details')) {
+                const featureTitle = e.target.parentElement.querySelector('.feature-title').textContent;
+                trackEvent('feature_details_viewed', { feature: featureTitle });
+            }
+        });
+    </script>
+</body>
+</html>
