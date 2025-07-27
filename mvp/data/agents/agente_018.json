@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF018",
+  "nome": "Isaac Bhargava",
+  "cargo": "Analista de RH",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 32,
+  "demografia": {
+    "pais_origem": "India",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.4,
+    "conscienciosidade": 4.9,
+    "extroversao": 9.2,
+    "amabilidade": 1.4,
+    "neuroticismo": 8.7
+  },
+  "competencias": [
+    "Gestão de Projetos",
+    "Machine Learning",
+    "Liderança"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.5
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 9.2
+      }
+    ],
+    "metas_atingidas_percentual": 86.4
+  },
+  "engajamento": {
+    "enps_recente": 8,
+    "feedback_360_media": 4.5,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 8
+  },
+  "objetivos_carreira": "Add individual democratic four space radio attack cover far ago maybe call.",
+  "kpis_ia": {
+    "risco_burnout": 2.8,
+    "engajamento_inferido": 1.4,
+    "sentimento_medio": 0.32
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF008",
+  "nome": "Остромир Харлампович Князев",
+  "cargo": "Analista de RH",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 9,
+  "demografia": {
+    "pais_origem": "Russia",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 2.5,
+    "conscienciosidade": 1.8,
+    "extroversao": 3.2,
+    "amabilidade": 9.8,
+    "neuroticismo": 5.8
+  },
+  "competencias": [
+    "Comunicação",
+    "Gestão de Projetos",
+    "Power BI",
+    "Liderança"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.6
+      }
+    ],
+    "metas_atingidas_percentual": 85.7
+  },
+  "engajamento": {
+    "enps_recente": 2,
+    "feedback_360_media": 3.3,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Human your national fund foreign current learn finally go owner answer.",
+  "kpis_ia": {
+    "risco_burnout": 7.0,
+    "engajamento_inferido": 6.3,
+    "sentimento_medio": 0.17
+  }
+}

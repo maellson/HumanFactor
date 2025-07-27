@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF019",
+  "nome": "Heidi Simon MD",
+  "cargo": "Analista de Dados",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 56,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 7.5,
+    "conscienciosidade": 6.5,
+    "extroversao": 1.5,
+    "amabilidade": 3.8,
+    "neuroticismo": 7.9
+  },
+  "competencias": [
+    "Power BI",
+    "SQL",
+    "Liderança",
+    "Scrum"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 5.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 9.7
+      }
+    ],
+    "metas_atingidas_percentual": 85.0
+  },
+  "engajamento": {
+    "enps_recente": 9,
+    "feedback_360_media": 4.4,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 10
+  },
+  "objetivos_carreira": "Material position reality common know hit open agent him.",
+  "kpis_ia": {
+    "risco_burnout": 3.7,
+    "engajamento_inferido": 2.7,
+    "sentimento_medio": -0.21
+  }
+}

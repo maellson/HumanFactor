@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF020",
+  "nome": "Karen White",
+  "cargo": "Engenheiro de Software",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 33,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 3.2,
+    "conscienciosidade": 7.0,
+    "extroversao": 3.1,
+    "amabilidade": 2.8,
+    "neuroticismo": 1.7
+  },
+  "competencias": [
+    "Comunicação",
+    "React",
+    "Java",
+    "Machine Learning"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.9
+      }
+    ],
+    "metas_atingidas_percentual": 70.6
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 4.2,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 7
+  },
+  "objetivos_carreira": "Keep discussion age national health music get.",
+  "kpis_ia": {
+    "risco_burnout": 8.4,
+    "engajamento_inferido": 5.0,
+    "sentimento_medio": 0.67
+  }
+}

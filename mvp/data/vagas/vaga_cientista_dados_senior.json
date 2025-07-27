@@ -1,0 +1,23 @@
+{
+  "titulo_vaga": "Cientista de Dados Sênior",
+  "departamento": "Tecnologia",
+  "descricao": "Profissional experiente para desenvolver modelos preditivos e extrair insights complexos dos dados, liderando projetos de IA.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 9.0,
+    "conscienciosidade": 8.5,
+    "extroversao": 5.0,
+    "amabilidade": 6.0,
+    "neuroticismo": 2.0
+  },
+  "competencias_obrigatorias": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Análise Estatística"
+  ],
+  "competencias_desejaveis": [
+    "Power BI",
+    "Liderança Técnica",
+    "Comunicação"
+  ]
+}

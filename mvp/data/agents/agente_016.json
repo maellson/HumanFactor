@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF016",
+  "nome": "Sofia Câmara",
+  "cargo": "Cientista de Dados",
+  "departamento": "Produto",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 42,
+  "demografia": {
+    "pais_origem": "Brazil",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 9.7,
+    "conscienciosidade": 4.5,
+    "extroversao": 4.9,
+    "amabilidade": 5.3,
+    "neuroticismo": 7.6
+  },
+  "competencias": [
+    "Python",
+    "Figma",
+    "Liderança"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.8
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.6
+      }
+    ],
+    "metas_atingidas_percentual": 70.5
+  },
+  "engajamento": {
+    "enps_recente": 9,
+    "feedback_360_media": 4.3,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 10
+  },
+  "objetivos_carreira": "Institution write give free military stop future human war worry development type hotel.",
+  "kpis_ia": {
+    "risco_burnout": 2.7,
+    "engajamento_inferido": 9.6,
+    "sentimento_medio": -0.61
+  }
+}

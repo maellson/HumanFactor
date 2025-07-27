@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF006",
+  "nome": "张莉",
+  "cargo": "Analista de Dados",
+  "departamento": "Design",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 33,
+  "demografia": {
+    "pais_origem": "China",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 8.5,
+    "conscienciosidade": 9.2,
+    "extroversao": 3.4,
+    "amabilidade": 7.3,
+    "neuroticismo": 9.1
+  },
+  "competencias": [
+    "React",
+    "SQL",
+    "Python",
+    "Scrum",
+    "Machine Learning"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.2
+      }
+    ],
+    "metas_atingidas_percentual": 85.1
+  },
+  "engajamento": {
+    "enps_recente": 1,
+    "feedback_360_media": 3.5,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 1
+  },
+  "objetivos_carreira": "Stage she two both affect look body bed way expect or.",
+  "kpis_ia": {
+    "risco_burnout": 9.5,
+    "engajamento_inferido": 1.1,
+    "sentimento_medio": -0.58
+  }
+}

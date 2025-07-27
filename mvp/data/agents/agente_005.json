@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF005",
+  "nome": "沈辉",
+  "cargo": "Engenheiro de Software",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 48,
+  "demografia": {
+    "pais_origem": "China",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 4.7,
+    "conscienciosidade": 8.2,
+    "extroversao": 2.7,
+    "amabilidade": 4.4,
+    "neuroticismo": 1.1
+  },
+  "competencias": [
+    "Figma",
+    "SQL",
+    "Liderança",
+    "Comunicação",
+    "Python"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.8
+      }
+    ],
+    "metas_atingidas_percentual": 79.8
+  },
+  "engajamento": {
+    "enps_recente": 8,
+    "feedback_360_media": 4.7,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 9
+  },
+  "objetivos_carreira": "Nice manager remain TV at gun.",
+  "kpis_ia": {
+    "risco_burnout": 6.7,
+    "engajamento_inferido": 6.3,
+    "sentimento_medio": 0.9
+  }
+}

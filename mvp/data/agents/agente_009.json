@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF009",
+  "nome": "陈洁",
+  "cargo": "Gerente de Produto",
+  "departamento": "Produto",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 19,
+  "demografia": {
+    "pais_origem": "China",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 1.4,
+    "conscienciosidade": 2.6,
+    "extroversao": 3.9,
+    "amabilidade": 5.6,
+    "neuroticismo": 1.8
+  },
+  "competencias": [
+    "Comunicação",
+    "Java",
+    "SQL"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.7
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 5.6
+      }
+    ],
+    "metas_atingidas_percentual": 78.0
+  },
+  "engajamento": {
+    "enps_recente": 10,
+    "feedback_360_media": 3.5,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 1
+  },
+  "objetivos_carreira": "Effort win sure glass win wall way growth analysis serve.",
+  "kpis_ia": {
+    "risco_burnout": 5.4,
+    "engajamento_inferido": 0.1,
+    "sentimento_medio": -0.25
+  }
+}

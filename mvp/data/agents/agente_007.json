@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF007",
+  "nome": "Allison Roberts",
+  "cargo": "Gerente de Produto",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 47,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.8,
+    "conscienciosidade": 9.6,
+    "extroversao": 7.3,
+    "amabilidade": 7.9,
+    "neuroticismo": 7.4
+  },
+  "competencias": [
+    "Liderança",
+    "Figma",
+    "Gestão de Projetos",
+    "Python"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.7
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.2
+      }
+    ],
+    "metas_atingidas_percentual": 79.9
+  },
+  "engajamento": {
+    "enps_recente": 2,
+    "feedback_360_media": 4.7,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Leave environment rather specific adult onto total defense writer simply prove soldier.",
+  "kpis_ia": {
+    "risco_burnout": 1.6,
+    "engajamento_inferido": 5.7,
+    "sentimento_medio": -0.48
+  }
+}

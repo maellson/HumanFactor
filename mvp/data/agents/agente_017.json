@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF017",
+  "nome": "Stephanie Taylor",
+  "cargo": "Gerente de Produto",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 37,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 8.5,
+    "conscienciosidade": 7.7,
+    "extroversao": 8.4,
+    "amabilidade": 4.2,
+    "neuroticismo": 1.7
+  },
+  "competencias": [
+    "Figma",
+    "SQL",
+    "Gestão de Projetos"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 10.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.9
+      }
+    ],
+    "metas_atingidas_percentual": 75.3
+  },
+  "engajamento": {
+    "enps_recente": 7,
+    "feedback_360_media": 4.4,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 8
+  },
+  "objetivos_carreira": "Sound painting four thank hear process.",
+  "kpis_ia": {
+    "risco_burnout": 7.7,
+    "engajamento_inferido": 0.1,
+    "sentimento_medio": 0.99
+  }
+}

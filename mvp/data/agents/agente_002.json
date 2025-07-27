@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF002",
+  "nome": "Melita Bolzmann",
+  "cargo": "Engenheiro de Software",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 46,
+  "demografia": {
+    "pais_origem": "Germany",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 7.3,
+    "conscienciosidade": 6.3,
+    "extroversao": 5.8,
+    "amabilidade": 4.3,
+    "neuroticismo": 6.5
+  },
+  "competencias": [
+    "Machine Learning",
+    "Liderança",
+    "Comunicação",
+    "Java",
+    "React",
+    "Gestão de Projetos"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.8
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.9
+      }
+    ],
+    "metas_atingidas_percentual": 79.9
+  },
+  "engajamento": {
+    "enps_recente": 7,
+    "feedback_360_media": 4.7,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 10
+  },
+  "objetivos_carreira": "Plant western social administration so fund.",
+  "kpis_ia": {
+    "risco_burnout": 0.5,
+    "engajamento_inferido": 3.9,
+    "sentimento_medio": -0.67
+  }
+}

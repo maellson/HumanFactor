@@ -1,0 +1,12 @@
+streamlit
+pandas
+Faker
+scikit-learn
+plotly
+langchain
+langchain-community
+langchain-openai
+openai
+faiss-cpu
+tiktoken
+python-dotenv

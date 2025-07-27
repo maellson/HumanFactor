@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF021",
+  "nome": "Julie Jäkel",
+  "cargo": "Analista de RH",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 19,
+  "demografia": {
+    "pais_origem": "Germany",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 5.3,
+    "conscienciosidade": 1.4,
+    "extroversao": 9.7,
+    "amabilidade": 6.6,
+    "neuroticismo": 6.5
+  },
+  "competencias": [
+    "Python",
+    "Comunicação",
+    "SQL"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.9
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 9.1
+      }
+    ],
+    "metas_atingidas_percentual": 96.2
+  },
+  "engajamento": {
+    "enps_recente": 3,
+    "feedback_360_media": 3.1,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Although late ask loss travel article fill song.",
+  "kpis_ia": {
+    "risco_burnout": 9.4,
+    "engajamento_inferido": 6.7,
+    "sentimento_medio": 0.16
+  }
+}

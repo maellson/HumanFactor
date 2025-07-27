@@ -1,0 +1,48 @@
+{
+  "id_funcionario": "HF001",
+  "nome": "Ana Silva",
+  "cargo": "Desenvolvedora de Software Sênior",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Plataforma Core",
+  "tempo_de_casa_meses": 36,
+  "demografia": {
+    "pais_origem": "Brasil",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 8.5,
+    "conscienciosidade": 9.0,
+    "extroversao": 6.0,
+    "amabilidade": 7.5,
+    "neuroticismo": 2.5
+  },
+  "competencias": [
+    "Python",
+    "Desenvolvimento de API",
+    "Liderança Técnica",
+    "Comunicação Assertiva",
+    "Arquitetura de Microsserviços"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      { "ciclo": "2023-H2", "nota": 9.5 },
+      { "ciclo": "2024-H1", "nota": 9.8 }
+    ],
+    "metas_atingidas_percentual": 98.0
+  },
+  "engajamento": {
+    "enps_recente": 9,
+    "feedback_360_media": 4.8,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 5
+  },
+  "objetivos_carreira": "Tornar-se Arquiteta de Soluções nos próximos 2 anos.",
+  "kpis_ia": {
+    "risco_burnout": 3.0,
+    "engajamento_inferido": 8.0,
+    "sentimento_medio": 0.5
+  }
+}

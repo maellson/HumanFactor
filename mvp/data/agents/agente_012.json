@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF012",
+  "nome": "나준호",
+  "cargo": "Analista de RH",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 38,
+  "demografia": {
+    "pais_origem": "South Korea",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.2,
+    "conscienciosidade": 9.5,
+    "extroversao": 9.5,
+    "amabilidade": 4.6,
+    "neuroticismo": 1.8
+  },
+  "competencias": [
+    "Comunicação",
+    "Análise Estatística",
+    "Liderança",
+    "Java",
+    "Power BI"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 8.3
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.0
+      }
+    ],
+    "metas_atingidas_percentual": 86.1
+  },
+  "engajamento": {
+    "enps_recente": 1,
+    "feedback_360_media": 3.4,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 2
+  },
+  "objetivos_carreira": "Box design collection amount clear even miss once detail soldier already office financial.",
+  "kpis_ia": {
+    "risco_burnout": 3.4,
+    "engajamento_inferido": 2.7,
+    "sentimento_medio": 0.39
+  }
+}

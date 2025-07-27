@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF004",
+  "nome": "Denise Fisher",
+  "cargo": "Gerente de Marketing",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 43,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 4.4,
+    "conscienciosidade": 4.5,
+    "extroversao": 9.5,
+    "amabilidade": 7.3,
+    "neuroticismo": 8.5
+  },
+  "competencias": [
+    "Java",
+    "Machine Learning",
+    "Power BI",
+    "Liderança",
+    "Análise Estatística",
+    "Figma"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.3
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.3
+      }
+    ],
+    "metas_atingidas_percentual": 81.7
+  },
+  "engajamento": {
+    "enps_recente": 7,
+    "feedback_360_media": 3.6,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 7
+  },
+  "objetivos_carreira": "Quickly message impact concern fish sea civil level bar.",
+  "kpis_ia": {
+    "risco_burnout": 5.2,
+    "engajamento_inferido": 1.1,
+    "sentimento_medio": -0.52
+  }
+}

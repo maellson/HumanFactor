@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF003",
+  "nome": "안옥순",
+  "cargo": "Analista de Dados",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 44,
+  "demografia": {
+    "pais_origem": "South Korea",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.2,
+    "conscienciosidade": 6.0,
+    "extroversao": 8.9,
+    "amabilidade": 5.9,
+    "neuroticismo": 9.6
+  },
+  "competencias": [
+    "React",
+    "Comunicação",
+    "Python",
+    "Java"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.2
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 9.7
+      }
+    ],
+    "metas_atingidas_percentual": 72.1
+  },
+  "engajamento": {
+    "enps_recente": 3,
+    "feedback_360_media": 3.8,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 1
+  },
+  "objetivos_carreira": "Little Mrs real show address thank phone enjoy.",
+  "kpis_ia": {
+    "risco_burnout": 0.5,
+    "engajamento_inferido": 5.9,
+    "sentimento_medio": -0.18
+  }
+}

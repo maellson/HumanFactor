@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF013",
+  "nome": "Naksh Bedi",
+  "cargo": "Designer UX/UI",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 60,
+  "demografia": {
+    "pais_origem": "India",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 5.3,
+    "conscienciosidade": 6.6,
+    "extroversao": 8.3,
+    "amabilidade": 1.8,
+    "neuroticismo": 8.9
+  },
+  "competencias": [
+    "Análise Estatística",
+    "React",
+    "Python",
+    "Figma",
+    "Comunicação"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.8
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.7
+      }
+    ],
+    "metas_atingidas_percentual": 74.6
+  },
+  "engajamento": {
+    "enps_recente": 5,
+    "feedback_360_media": 3.6,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Radio cut natural make war check for in black high.",
+  "kpis_ia": {
+    "risco_burnout": 1.2,
+    "engajamento_inferido": 2.3,
+    "sentimento_medio": -0.42
+  }
+}
