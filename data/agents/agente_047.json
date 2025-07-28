@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF047",
+  "nome": "Michele Ross",
+  "cargo": "Designer UX/UI",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 45,
+  "demografia": {
+    "pais_origem": "USA",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 8.9,
+    "conscienciosidade": 7.8,
+    "extroversao": 4.2,
+    "amabilidade": 6.9,
+    "neuroticismo": 9.0
+  },
+  "competencias": [
+    "Comunicação",
+    "React",
+    "Gestão de Projetos",
+    "Python"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 8.7
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.8
+      }
+    ],
+    "metas_atingidas_percentual": 90.9
+  },
+  "engajamento": {
+    "enps_recente": 8,
+    "feedback_360_media": 4.9,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 2
+  },
+  "objetivos_carreira": "Pass want reach clearly let become draw material go level sure.",
+  "kpis_ia": {
+    "risco_burnout": 9.6,
+    "engajamento_inferido": 8.6,
+    "sentimento_medio": -0.13
+  }
+}

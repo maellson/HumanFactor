@@ -1,0 +1,37 @@
+{
+  "id_vaga": "VAGA_006",
+  "titulo_vaga": "Gerente de Marketing Digital",
+  "departamento": "Marketing",
+  "nivel": "Sênior",
+  "descricao": "Especialista em marketing digital para liderar estratégias de crescimento e campanhas online.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 8.5,
+    "conscienciosidade": 7.5,
+    "extroversao": 8.5,
+    "amabilidade": 7.0,
+    "neuroticismo": 3.5
+  },
+  "competencias_obrigatorias": [
+    "Comunicação",
+    "Liderança",
+    "Criatividade"
+  ],
+  "competencias_desejaveis": [
+    "Power BI",
+    "SQL",
+    "Negociação",
+    "Gestão de Projetos"
+  ],
+  "competencias_diferenciais": [
+    "Python",
+    "Machine Learning",
+    "Análise Estatística"
+  ],
+  "salario_min": 8000,
+  "salario_max": 15000,
+  "requisitos_especiais": [
+    "4+ anos marketing digital",
+    "Experiência com performance",
+    "Google Analytics/Ads"
+  ]
+}

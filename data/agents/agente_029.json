@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF029",
+  "nome": "沈建平",
+  "cargo": "Designer UX/UI",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 14,
+  "demografia": {
+    "pais_origem": "China",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 8.0,
+    "conscienciosidade": 1.6,
+    "extroversao": 7.7,
+    "amabilidade": 2.2,
+    "neuroticismo": 4.5
+  },
+  "competencias": [
+    "Scrum",
+    "Machine Learning",
+    "Power BI",
+    "Figma"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 10.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.7
+      }
+    ],
+    "metas_atingidas_percentual": 84.2
+  },
+  "engajamento": {
+    "enps_recente": 9,
+    "feedback_360_media": 3.6,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 2
+  },
+  "objetivos_carreira": "Fill popular possible officer experience measure reality product station happen.",
+  "kpis_ia": {
+    "risco_burnout": 6.1,
+    "engajamento_inferido": 9.7,
+    "sentimento_medio": 0.11
+  }
+}

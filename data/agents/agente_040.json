@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF040",
+  "nome": "Kevin Orozco",
+  "cargo": "Gerente de Produto",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 34,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 4.2,
+    "conscienciosidade": 7.7,
+    "extroversao": 4.2,
+    "amabilidade": 2.4,
+    "neuroticismo": 6.4
+  },
+  "competencias": [
+    "Figma",
+    "Gestão de Projetos",
+    "Scrum",
+    "Power BI"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.3
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 9.3
+      }
+    ],
+    "metas_atingidas_percentual": 74.0
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 4.5,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 1
+  },
+  "objetivos_carreira": "That strategy consider for cost college.",
+  "kpis_ia": {
+    "risco_burnout": 9.9,
+    "engajamento_inferido": 5.7,
+    "sentimento_medio": -0.5
+  }
+}

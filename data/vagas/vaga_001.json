@@ -1,0 +1,37 @@
+{
+  "id_vaga": "VAGA_001",
+  "titulo_vaga": "Analista de Dados Sênior",
+  "departamento": "Tecnologia",
+  "nivel": "Sênior",
+  "descricao": "Profissional experiente para análise de dados complexos e geração de insights estratégicos para o negócio.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 8.5,
+    "conscienciosidade": 9.0,
+    "extroversao": 6.0,
+    "amabilidade": 7.0,
+    "neuroticismo": 2.5
+  },
+  "competencias_obrigatorias": [
+    "Python",
+    "SQL",
+    "Análise Estatística",
+    "Power BI"
+  ],
+  "competencias_desejaveis": [
+    "Machine Learning",
+    "Comunicação",
+    "Gestão de Projetos"
+  ],
+  "competencias_diferenciais": [
+    "AWS",
+    "Docker",
+    "Scrum"
+  ],
+  "salario_min": 8000,
+  "salario_max": 15000,
+  "requisitos_especiais": [
+    "Experiência com big data",
+    "Inglês intermediário",
+    "3+ anos experiência"
+  ]
+}

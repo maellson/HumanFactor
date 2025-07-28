@@ -1,0 +1,21 @@
+streamlit
+pandas
+Faker
+scikit-learn
+plotly
+python-dotenv # para carregar variáveis de ambiente de um arquivo .env
+#Langchain and related libraries
+langchain
+langchain-community
+langchain-openai
+langchain-anthropic
+tiktoken # serve para tokenização de textos
+#vectorstores
+faiss-cpu
+# Claude AI Integration
+anthropic
+#OpenAI Integration
+openai
+networkx
+matplotlib
+

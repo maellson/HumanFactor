@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF026",
+  "nome": "Rachel Thompson",
+  "cargo": "Designer UX/UI",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 24,
+  "demografia": {
+    "pais_origem": "USA",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 3.9,
+    "conscienciosidade": 9.0,
+    "extroversao": 2.9,
+    "amabilidade": 1.8,
+    "neuroticismo": 6.3
+  },
+  "competencias": [
+    "Análise Estatística",
+    "Gestão de Projetos",
+    "Comunicação",
+    "Scrum"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 5.5
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.7
+      }
+    ],
+    "metas_atingidas_percentual": 71.2
+  },
+  "engajamento": {
+    "enps_recente": 5,
+    "feedback_360_media": 3.9,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 9
+  },
+  "objetivos_carreira": "Film station such house difference loss hold.",
+  "kpis_ia": {
+    "risco_burnout": 3.9,
+    "engajamento_inferido": 8.0,
+    "sentimento_medio": 0.82
+  }
+}

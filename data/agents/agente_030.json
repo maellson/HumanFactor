@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF030",
+  "nome": "山本 太郎",
+  "cargo": "Gerente de Produto",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 35,
+  "demografia": {
+    "pais_origem": "Japan",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 1.9,
+    "conscienciosidade": 4.4,
+    "extroversao": 7.7,
+    "amabilidade": 8.1,
+    "neuroticismo": 8.4
+  },
+  "competencias": [
+    "Power BI",
+    "Machine Learning",
+    "Python",
+    "React",
+    "SQL",
+    "Scrum"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 5.6
+      }
+    ],
+    "metas_atingidas_percentual": 90.7
+  },
+  "engajamento": {
+    "enps_recente": 2,
+    "feedback_360_media": 3.8,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 9
+  },
+  "objetivos_carreira": "One participant others military begin history seven.",
+  "kpis_ia": {
+    "risco_burnout": 6.4,
+    "engajamento_inferido": 9.4,
+    "sentimento_medio": -0.89
+  }
+}

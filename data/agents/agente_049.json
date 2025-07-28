@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF049",
+  "nome": "Libni Lad",
+  "cargo": "Gerente de Produto",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 45,
+  "demografia": {
+    "pais_origem": "India",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 3.2,
+    "conscienciosidade": 9.8,
+    "extroversao": 9.4,
+    "amabilidade": 7.8,
+    "neuroticismo": 2.4
+  },
+  "competencias": [
+    "Gestão de Projetos",
+    "React",
+    "Análise Estatística",
+    "Java",
+    "Machine Learning",
+    "Comunicação"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.9
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.7
+      }
+    ],
+    "metas_atingidas_percentual": 89.5
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 3.8,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Professional record either city choose continue hospital ever with nearly focus.",
+  "kpis_ia": {
+    "risco_burnout": 8.6,
+    "engajamento_inferido": 8.1,
+    "sentimento_medio": -0.49
+  }
+}

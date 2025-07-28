@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF038",
+  "nome": "Larissa Silva",
+  "cargo": "Designer UX/UI",
+  "departamento": "Produto",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 53,
+  "demografia": {
+    "pais_origem": "Brazil",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 7.0,
+    "conscienciosidade": 8.8,
+    "extroversao": 2.9,
+    "amabilidade": 2.2,
+    "neuroticismo": 3.8
+  },
+  "competencias": [
+    "Liderança",
+    "Machine Learning",
+    "React",
+    "Figma",
+    "Java",
+    "Comunicação"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 7.3
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.6
+      }
+    ],
+    "metas_atingidas_percentual": 91.5
+  },
+  "engajamento": {
+    "enps_recente": 2,
+    "feedback_360_media": 4.3,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 9
+  },
+  "objetivos_carreira": "Appear risk sometimes it over star other begin push.",
+  "kpis_ia": {
+    "risco_burnout": 1.9,
+    "engajamento_inferido": 7.2,
+    "sentimento_medio": -0.74
+  }
+}

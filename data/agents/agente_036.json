@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF036",
+  "nome": "Diane Knight",
+  "cargo": "Analista de Dados",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 33,
+  "demografia": {
+    "pais_origem": "USA",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 2.1,
+    "conscienciosidade": 1.5,
+    "extroversao": 4.9,
+    "amabilidade": 6.3,
+    "neuroticismo": 6.2
+  },
+  "competencias": [
+    "Gestão de Projetos",
+    "Figma",
+    "Análise Estatística",
+    "Scrum",
+    "Liderança",
+    "Python"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.1
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.5
+      }
+    ],
+    "metas_atingidas_percentual": 89.6
+  },
+  "engajamento": {
+    "enps_recente": 5,
+    "feedback_360_media": 3.6,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 3
+  },
+  "objetivos_carreira": "Meeting teach although reveal short so dog idea his.",
+  "kpis_ia": {
+    "risco_burnout": 4.0,
+    "engajamento_inferido": 2.1,
+    "sentimento_medio": 0.48
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id_vaga": "VAGA_003",
+  "titulo_vaga": "Cientista de Dados",
+  "departamento": "Tecnologia",
+  "nivel": "Sênior",
+  "descricao": "Especialista em ciência de dados para desenvolver modelos preditivos e soluções de machine learning.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 9.0,
+    "conscienciosidade": 8.5,
+    "extroversao": 5.0,
+    "amabilidade": 6.0,
+    "neuroticismo": 2.0
+  },
+  "competencias_obrigatorias": [
+    "Python",
+    "Machine Learning",
+    "Análise Estatística",
+    "SQL"
+  ],
+  "competencias_desejaveis": [
+    "AWS",
+    "Docker",
+    "Power BI",
+    "Comunicação"
+  ],
+  "competencias_diferenciais": [
+    "Scrum",
+    "Liderança",
+    "Gestão de Projetos"
+  ],
+  "salario_min": 12000,
+  "salario_max": 20000,
+  "requisitos_especiais": [
+    "Mestrado ou PhD preferível",
+    "Experiência com ML em produção",
+    "Inglês avançado"
+  ]
+}

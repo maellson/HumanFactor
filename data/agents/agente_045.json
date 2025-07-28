@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF045",
+  "nome": "Michelle Smith",
+  "cargo": "Analista de Dados",
+  "departamento": "Produto",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 24,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 4.5,
+    "conscienciosidade": 6.0,
+    "extroversao": 3.2,
+    "amabilidade": 3.1,
+    "neuroticismo": 8.9
+  },
+  "competencias": [
+    "Java",
+    "Figma",
+    "Liderança"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.9
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.5
+      }
+    ],
+    "metas_atingidas_percentual": 90.5
+  },
+  "engajamento": {
+    "enps_recente": 4,
+    "feedback_360_media": 4.4,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 7
+  },
+  "objetivos_carreira": "Out six likely summer space involve recently artist.",
+  "kpis_ia": {
+    "risco_burnout": 8.6,
+    "engajamento_inferido": 1.5,
+    "sentimento_medio": 0.32
+  }
+}

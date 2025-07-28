@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF031",
+  "nome": "Gary Campbell",
+  "cargo": "Cientista de Dados",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 10,
+  "demografia": {
+    "pais_origem": "USA",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 2.4,
+    "conscienciosidade": 8.1,
+    "extroversao": 6.9,
+    "amabilidade": 9.1,
+    "neuroticismo": 5.9
+  },
+  "competencias": [
+    "SQL",
+    "Scrum",
+    "Liderança"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 8.5
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 5.4
+      }
+    ],
+    "metas_atingidas_percentual": 76.7
+  },
+  "engajamento": {
+    "enps_recente": 3,
+    "feedback_360_media": 4.2,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Race attention inside meeting value hundred art hope maintain base civil really eye.",
+  "kpis_ia": {
+    "risco_burnout": 1.4,
+    "engajamento_inferido": 1.1,
+    "sentimento_medio": 0.59
+  }
+}

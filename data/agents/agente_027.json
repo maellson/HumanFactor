@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF027",
+  "nome": "Aurora Cavalcanti",
+  "cargo": "Analista de Dados",
+  "departamento": "Design",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 12,
+  "demografia": {
+    "pais_origem": "Brazil",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 1.5,
+    "conscienciosidade": 1.4,
+    "extroversao": 3.3,
+    "amabilidade": 1.0,
+    "neuroticismo": 5.6
+  },
+  "competencias": [
+    "Machine Learning",
+    "Liderança",
+    "Scrum",
+    "Power BI",
+    "Java"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 7.1
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.3
+      }
+    ],
+    "metas_atingidas_percentual": 71.1
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 3.1,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "New similar so girl toward clear peace beautiful.",
+  "kpis_ia": {
+    "risco_burnout": 6.7,
+    "engajamento_inferido": 9.9,
+    "sentimento_medio": -0.39
+  }
+}

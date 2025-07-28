@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF046",
+  "nome": "Marina Azevedo",
+  "cargo": "Designer UX/UI",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 3,
+  "demografia": {
+    "pais_origem": "Brazil",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 1.5,
+    "conscienciosidade": 8.3,
+    "extroversao": 2.0,
+    "amabilidade": 2.2,
+    "neuroticismo": 7.4
+  },
+  "competencias": [
+    "Machine Learning",
+    "Java",
+    "Gestão de Projetos",
+    "Análise Estatística",
+    "Power BI"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 5.4
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.5
+      }
+    ],
+    "metas_atingidas_percentual": 86.8
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 4.1,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 9
+  },
+  "objetivos_carreira": "Reveal current method pay about table travel market let dream.",
+  "kpis_ia": {
+    "risco_burnout": 3.9,
+    "engajamento_inferido": 1.5,
+    "sentimento_medio": -0.49
+  }
+}

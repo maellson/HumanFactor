@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF032",
+  "nome": "Eduarda Vaz",
+  "cargo": "Cientista de Dados",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 45,
+  "demografia": {
+    "pais_origem": "Portugal",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 7.3,
+    "conscienciosidade": 7.8,
+    "extroversao": 8.1,
+    "amabilidade": 6.8,
+    "neuroticismo": 1.2
+  },
+  "competencias": [
+    "Java",
+    "Gestão de Projetos",
+    "Análise Estatística",
+    "SQL",
+    "Figma"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 7.4
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.7
+      }
+    ],
+    "metas_atingidas_percentual": 88.0
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 3.5,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 5
+  },
+  "objetivos_carreira": "Data expert gun from him first.",
+  "kpis_ia": {
+    "risco_burnout": 4.2,
+    "engajamento_inferido": 9.1,
+    "sentimento_medio": 0.94
+  }
+}

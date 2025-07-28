@@ -1,0 +1,37 @@
+{
+  "id_vaga": "VAGA_007",
+  "titulo_vaga": "Analista de RH Pleno",
+  "departamento": "Recursos Humanos",
+  "nivel": "Pleno",
+  "descricao": "Profissional de RH para atuar em recrutamento, desenvolvimento e analytics de pessoas.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 7.0,
+    "conscienciosidade": 8.5,
+    "extroversao": 7.5,
+    "amabilidade": 8.5,
+    "neuroticismo": 3.0
+  },
+  "competencias_obrigatorias": [
+    "Comunicação",
+    "Liderança",
+    "Negociação"
+  ],
+  "competencias_desejaveis": [
+    "Power BI",
+    "SQL",
+    "Pensamento Crítico",
+    "Gestão de Projetos"
+  ],
+  "competencias_diferenciais": [
+    "Python",
+    "Machine Learning",
+    "Análise Estatística"
+  ],
+  "salario_min": 5000,
+  "salario_max": 9000,
+  "requisitos_especiais": [
+    "Psicologia ou área afim",
+    "2+ anos experiência RH",
+    "Conhecimento em People Analytics"
+  ]
+}

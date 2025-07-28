@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF043",
+  "nome": "Ekavir Chokshi",
+  "cargo": "Cientista de Dados",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 26,
+  "demografia": {
+    "pais_origem": "India",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 3.1,
+    "conscienciosidade": 1.7,
+    "extroversao": 6.5,
+    "amabilidade": 6.3,
+    "neuroticismo": 2.4
+  },
+  "competencias": [
+    "SQL",
+    "React",
+    "Gestão de Projetos"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 5.1
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 5.3
+      }
+    ],
+    "metas_atingidas_percentual": 86.3
+  },
+  "engajamento": {
+    "enps_recente": 1,
+    "feedback_360_media": 4.6,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 10
+  },
+  "objetivos_carreira": "It she center public role describe.",
+  "kpis_ia": {
+    "risco_burnout": 4.0,
+    "engajamento_inferido": 7.0,
+    "sentimento_medio": -0.56
+  }
+}

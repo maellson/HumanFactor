@@ -1,0 +1,38 @@
+{
+  "id_vaga": "VAGA_005",
+  "titulo_vaga": "Gerente de Produto",
+  "departamento": "Produto",
+  "nivel": "Sênior",
+  "descricao": "Líder de produto para definir estratégia, roadmap e trabalhar com times multidisciplinares.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 8.0,
+    "conscienciosidade": 8.5,
+    "extroversao": 8.5,
+    "amabilidade": 7.5,
+    "neuroticismo": 3.0
+  },
+  "competencias_obrigatorias": [
+    "Liderança",
+    "Comunicação",
+    "Gestão de Projetos",
+    "Scrum"
+  ],
+  "competencias_desejaveis": [
+    "Pensamento Crítico",
+    "Negociação",
+    "SQL",
+    "Power BI"
+  ],
+  "competencias_diferenciais": [
+    "Python",
+    "Machine Learning",
+    "Análise Estatística"
+  ],
+  "salario_min": 10000,
+  "salario_max": 18000,
+  "requisitos_especiais": [
+    "5+ anos experiência produto",
+    "MBA desejável",
+    "Inglês fluente"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF042",
+  "nome": "赵婷",
+  "cargo": "Analista de RH",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 41,
+  "demografia": {
+    "pais_origem": "China",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 8.5,
+    "conscienciosidade": 6.9,
+    "extroversao": 3.7,
+    "amabilidade": 8.1,
+    "neuroticismo": 5.3
+  },
+  "competencias": [
+    "Comunicação",
+    "Java",
+    "SQL",
+    "Gestão de Projetos",
+    "React",
+    "Liderança"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.3
+      }
+    ],
+    "metas_atingidas_percentual": 78.6
+  },
+  "engajamento": {
+    "enps_recente": 6,
+    "feedback_360_media": 4.0,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 4
+  },
+  "objetivos_carreira": "Now fight heart go simple choose southern senior affect standard represent draw.",
+  "kpis_ia": {
+    "risco_burnout": 6.3,
+    "engajamento_inferido": 3.5,
+    "sentimento_medio": -0.33
+  }
+}

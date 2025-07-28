@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF023",
+  "nome": "Dra. Luna Marques",
+  "cargo": "Engenheiro de Software",
+  "departamento": "Produto",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 20,
+  "demografia": {
+    "pais_origem": "Brazil",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 1.8,
+    "conscienciosidade": 2.8,
+    "extroversao": 5.5,
+    "amabilidade": 9.2,
+    "neuroticismo": 2.8
+  },
+  "competencias": [
+    "Python",
+    "Machine Learning",
+    "Gestão de Projetos",
+    "React"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 8.4
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 9.2
+      }
+    ],
+    "metas_atingidas_percentual": 97.1
+  },
+  "engajamento": {
+    "enps_recente": 7,
+    "feedback_360_media": 3.5,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 7
+  },
+  "objetivos_carreira": "Challenge down month situation leg write against together development picture spring must.",
+  "kpis_ia": {
+    "risco_burnout": 9.8,
+    "engajamento_inferido": 1.9,
+    "sentimento_medio": -0.95
+  }
+}

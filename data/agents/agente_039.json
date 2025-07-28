@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF039",
+  "nome": "Íris Azevedo",
+  "cargo": "Gerente de Marketing",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 39,
+  "demografia": {
+    "pais_origem": "Portugal",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.3,
+    "conscienciosidade": 8.0,
+    "extroversao": 3.3,
+    "amabilidade": 3.6,
+    "neuroticismo": 2.3
+  },
+  "competencias": [
+    "Power BI",
+    "SQL",
+    "Figma",
+    "Machine Learning"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 5.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 5.2
+      }
+    ],
+    "metas_atingidas_percentual": 74.7
+  },
+  "engajamento": {
+    "enps_recente": 3,
+    "feedback_360_media": 4.9,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 7
+  },
+  "objetivos_carreira": "If city gas reason alone low case center policy be.",
+  "kpis_ia": {
+    "risco_burnout": 8.2,
+    "engajamento_inferido": 0.7,
+    "sentimento_medio": -0.54
+  }
+}

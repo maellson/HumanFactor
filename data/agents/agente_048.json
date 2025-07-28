@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF048",
+  "nome": "Yfke de Beer",
+  "cargo": "Analista de Dados",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 60,
+  "demografia": {
+    "pais_origem": "Netherlands",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 3.7,
+    "conscienciosidade": 3.4,
+    "extroversao": 9.4,
+    "amabilidade": 2.5,
+    "neuroticismo": 8.6
+  },
+  "competencias": [
+    "Liderança",
+    "Gestão de Projetos",
+    "Figma",
+    "SQL",
+    "Comunicação"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.7
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.3
+      }
+    ],
+    "metas_atingidas_percentual": 87.4
+  },
+  "engajamento": {
+    "enps_recente": 1,
+    "feedback_360_media": 3.3,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 7
+  },
+  "objetivos_carreira": "Old human admit owner federal detail political large difference three.",
+  "kpis_ia": {
+    "risco_burnout": 10.0,
+    "engajamento_inferido": 7.4,
+    "sentimento_medio": -0.73
+  }
+}

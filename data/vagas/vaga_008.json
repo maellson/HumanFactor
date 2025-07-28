@@ -1,0 +1,35 @@
+{
+  "id_vaga": "VAGA_008",
+  "titulo_vaga": "Desenvolvedor Frontend Júnior",
+  "departamento": "Tecnologia",
+  "nivel": "Júnior",
+  "descricao": "Desenvolvedor iniciante para criar interfaces web modernas e responsivas.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 8.0,
+    "conscienciosidade": 7.5,
+    "extroversao": 5.0,
+    "amabilidade": 6.5,
+    "neuroticismo": 4.0
+  },
+  "competencias_obrigatorias": [
+    "JavaScript",
+    "React"
+  ],
+  "competencias_desejaveis": [
+    "Figma",
+    "Comunicação",
+    "Scrum"
+  ],
+  "competencias_diferenciais": [
+    "Python",
+    "SQL",
+    "AWS"
+  ],
+  "salario_min": 3500,
+  "salario_max": 6000,
+  "requisitos_especiais": [
+    "Portfolio GitHub",
+    "Conhecimento básico HTML/CSS",
+    "Vontade de aprender"
+  ]
+}

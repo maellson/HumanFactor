@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF044",
+  "nome": "Jelte Thout",
+  "cargo": "Gerente de Marketing",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 15,
+  "demografia": {
+    "pais_origem": "Netherlands",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 2.5,
+    "conscienciosidade": 9.7,
+    "extroversao": 1.1,
+    "amabilidade": 2.6,
+    "neuroticismo": 9.0
+  },
+  "competencias": [
+    "Gestão de Projetos",
+    "Java",
+    "Power BI",
+    "Figma",
+    "SQL"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 7.1
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.6
+      }
+    ],
+    "metas_atingidas_percentual": 79.3
+  },
+  "engajamento": {
+    "enps_recente": 1,
+    "feedback_360_media": 4.3,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 8
+  },
+  "objetivos_carreira": "Garden personal room firm although effect prevent available energy return.",
+  "kpis_ia": {
+    "risco_burnout": 0.5,
+    "engajamento_inferido": 6.5,
+    "sentimento_medio": -0.07
+  }
+}

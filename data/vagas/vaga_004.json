@@ -1,0 +1,36 @@
+{
+  "id_vaga": "VAGA_004",
+  "titulo_vaga": "Designer UX/UI Sênior",
+  "departamento": "Design",
+  "nivel": "Sênior",
+  "descricao": "Designer experiente para criar experiências digitais excepcionais e interfaces intuitivas.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 9.5,
+    "conscienciosidade": 7.5,
+    "extroversao": 7.0,
+    "amabilidade": 8.0,
+    "neuroticismo": 3.5
+  },
+  "competencias_obrigatorias": [
+    "Figma",
+    "Criatividade",
+    "Comunicação"
+  ],
+  "competencias_desejaveis": [
+    "JavaScript",
+    "Pensamento Crítico",
+    "Gestão de Projetos"
+  ],
+  "competencias_diferenciais": [
+    "React",
+    "Python",
+    "Liderança"
+  ],
+  "salario_min": 6000,
+  "salario_max": 12000,
+  "requisitos_especiais": [
+    "Portfolio robusto",
+    "3+ anos experiência UX",
+    "Conhecimento em design systems"
+  ]
+}

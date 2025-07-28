@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF033",
+  "nome": "Joy Rosales",
+  "cargo": "Analista de RH",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 48,
+  "demografia": {
+    "pais_origem": "Nigeria",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 9.4,
+    "conscienciosidade": 9.7,
+    "extroversao": 4.7,
+    "amabilidade": 3.4,
+    "neuroticismo": 4.3
+  },
+  "competencias": [
+    "Gestão de Projetos",
+    "SQL",
+    "Figma",
+    "Análise Estatística"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.1
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.2
+      }
+    ],
+    "metas_atingidas_percentual": 84.1
+  },
+  "engajamento": {
+    "enps_recente": 1,
+    "feedback_360_media": 4.4,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 2
+  },
+  "objetivos_carreira": "Blue camera ahead with edge drive key early majority responsibility anything would consumer.",
+  "kpis_ia": {
+    "risco_burnout": 8.4,
+    "engajamento_inferido": 1.5,
+    "sentimento_medio": -0.47
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF041",
+  "nome": "Justin d' Heripon-van Dijk",
+  "cargo": "Gerente de Marketing",
+  "departamento": "Design",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 11,
+  "demografia": {
+    "pais_origem": "Netherlands",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.6,
+    "conscienciosidade": 2.5,
+    "extroversao": 8.4,
+    "amabilidade": 2.6,
+    "neuroticismo": 2.7
+  },
+  "competencias": [
+    "Comunicação",
+    "Análise Estatística",
+    "React"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.0
+      }
+    ],
+    "metas_atingidas_percentual": 73.9
+  },
+  "engajamento": {
+    "enps_recente": 2,
+    "feedback_360_media": 3.8,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 5
+  },
+  "objetivos_carreira": "Generation reflect early she degree industry operation exist simply.",
+  "kpis_ia": {
+    "risco_burnout": 3.9,
+    "engajamento_inferido": 4.0,
+    "sentimento_medio": 0.37
+  }
+}

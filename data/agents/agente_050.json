@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF050",
+  "nome": "Maud van der Heyden",
+  "cargo": "Cientista de Dados",
+  "departamento": "Tecnologia",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 18,
+  "demografia": {
+    "pais_origem": "Netherlands",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 2.3,
+    "conscienciosidade": 4.1,
+    "extroversao": 4.0,
+    "amabilidade": 2.3,
+    "neuroticismo": 7.2
+  },
+  "competencias": [
+    "React",
+    "Gestão de Projetos",
+    "Python",
+    "Figma",
+    "Power BI"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 7.8
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 8.0
+      }
+    ],
+    "metas_atingidas_percentual": 82.0
+  },
+  "engajamento": {
+    "enps_recente": 3,
+    "feedback_360_media": 3.4,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 0,
+    "projetos_chave_participados": 3
+  },
+  "objetivos_carreira": "Building note painting what true risk onto.",
+  "kpis_ia": {
+    "risco_burnout": 0.9,
+    "engajamento_inferido": 0.1,
+    "sentimento_medio": -0.58
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF034",
+  "nome": "박우진",
+  "cargo": "Engenheiro de Software",
+  "departamento": "Marketing",
+  "equipe_atual": "Equipe Delta",
+  "tempo_de_casa_meses": 17,
+  "demografia": {
+    "pais_origem": "South Korea",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 2.1,
+    "conscienciosidade": 7.1,
+    "extroversao": 3.0,
+    "amabilidade": 10.0,
+    "neuroticismo": 8.9
+  },
+  "competencias": [
+    "React",
+    "Liderança",
+    "Gestão de Projetos",
+    "Comunicação",
+    "Machine Learning"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 5.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 5.3
+      }
+    ],
+    "metas_atingidas_percentual": 82.2
+  },
+  "engajamento": {
+    "enps_recente": 5,
+    "feedback_360_media": 4.1,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 10
+  },
+  "objetivos_carreira": "Anyone finally difference authority several rest look market song check kitchen Congress.",
+  "kpis_ia": {
+    "risco_burnout": 6.4,
+    "engajamento_inferido": 5.1,
+    "sentimento_medio": 0.33
+  }
+}

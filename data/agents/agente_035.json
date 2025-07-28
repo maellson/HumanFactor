@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF035",
+  "nome": "Bas van Drenthe",
+  "cargo": "Analista de RH",
+  "departamento": "Produto",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 50,
+  "demografia": {
+    "pais_origem": "Netherlands",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 1.8,
+    "conscienciosidade": 3.1,
+    "extroversao": 5.5,
+    "amabilidade": 1.1,
+    "neuroticismo": 5.8
+  },
+  "competencias": [
+    "React",
+    "Machine Learning",
+    "Comunicação"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.7
+      }
+    ],
+    "metas_atingidas_percentual": 98.7
+  },
+  "engajamento": {
+    "enps_recente": 10,
+    "feedback_360_media": 3.7,
+    "comentarios_sentimento": "negativo"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 9
+  },
+  "objetivos_carreira": "Benefit open see reality car learn car middle step thing politics positive.",
+  "kpis_ia": {
+    "risco_burnout": 6.0,
+    "engajamento_inferido": 3.1,
+    "sentimento_medio": 0.52
+  }
+}

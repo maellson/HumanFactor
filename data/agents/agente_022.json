@@ -1,0 +1,53 @@
+{
+  "id_funcionario": "HF022",
+  "nome": "福田 京助",
+  "cargo": "Gerente de Produto",
+  "departamento": "Design",
+  "equipe_atual": "Equipe Beta",
+  "tempo_de_casa_meses": 41,
+  "demografia": {
+    "pais_origem": "Japan",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 3.6,
+    "conscienciosidade": 4.3,
+    "extroversao": 7.1,
+    "amabilidade": 9.6,
+    "neuroticismo": 9.8
+  },
+  "competencias": [
+    "Machine Learning",
+    "Scrum",
+    "SQL",
+    "Figma"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.7
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.8
+      }
+    ],
+    "metas_atingidas_percentual": 89.0
+  },
+  "engajamento": {
+    "enps_recente": 4,
+    "feedback_360_media": 3.6,
+    "comentarios_sentimento": "positivo"
+  },
+  "historico": {
+    "promocoes": 2,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Show ground certain church finish whatever young foreign I.",
+  "kpis_ia": {
+    "risco_burnout": 6.5,
+    "engajamento_inferido": 2.1,
+    "sentimento_medio": 0.8
+  }
+}

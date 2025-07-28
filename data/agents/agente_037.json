@@ -1,0 +1,52 @@
+{
+  "id_funcionario": "HF037",
+  "nome": "Anita Monteiro",
+  "cargo": "Cientista de Dados",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 35,
+  "demografia": {
+    "pais_origem": "Portugal",
+    "genero": "Não-binário"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 6.4,
+    "conscienciosidade": 7.8,
+    "extroversao": 6.3,
+    "amabilidade": 5.1,
+    "neuroticismo": 9.2
+  },
+  "competencias": [
+    "SQL",
+    "Liderança",
+    "Power BI"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 9.0
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.2
+      }
+    ],
+    "metas_atingidas_percentual": 95.4
+  },
+  "engajamento": {
+    "enps_recente": 8,
+    "feedback_360_media": 4.8,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 6
+  },
+  "objetivos_carreira": "Popular three build may easy artist marriage education miss cup old on either.",
+  "kpis_ia": {
+    "risco_burnout": 7.9,
+    "engajamento_inferido": 4.8,
+    "sentimento_medio": 0.03
+  }
+}

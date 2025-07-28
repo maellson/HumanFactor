@@ -1,0 +1,55 @@
+{
+  "id_funcionario": "HF025",
+  "nome": "Seth Spruit",
+  "cargo": "Designer UX/UI",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Alpha",
+  "tempo_de_casa_meses": 44,
+  "demografia": {
+    "pais_origem": "Netherlands",
+    "genero": "Masculino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 9.1,
+    "conscienciosidade": 8.6,
+    "extroversao": 9.6,
+    "amabilidade": 4.1,
+    "neuroticismo": 7.1
+  },
+  "competencias": [
+    "Comunicação",
+    "React",
+    "Python",
+    "Machine Learning",
+    "Scrum",
+    "Gestão de Projetos"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 6.6
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 6.4
+      }
+    ],
+    "metas_atingidas_percentual": 98.6
+  },
+  "engajamento": {
+    "enps_recente": 8,
+    "feedback_360_media": 3.0,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 3,
+    "projetos_chave_participados": 4
+  },
+  "objetivos_carreira": "Idea leave great mean possible specific.",
+  "kpis_ia": {
+    "risco_burnout": 5.5,
+    "engajamento_inferido": 8.7,
+    "sentimento_medio": -0.26
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id_funcionario": "HF024",
+  "nome": "Тимофеева Глафира Николаевна",
+  "cargo": "Engenheiro de Software",
+  "departamento": "Recursos Humanos",
+  "equipe_atual": "Equipe Gama",
+  "tempo_de_casa_meses": 41,
+  "demografia": {
+    "pais_origem": "Russia",
+    "genero": "Feminino"
+  },
+  "perfil_big_five": {
+    "abertura_a_experiencia": 9.5,
+    "conscienciosidade": 7.2,
+    "extroversao": 2.8,
+    "amabilidade": 4.7,
+    "neuroticismo": 8.2
+  },
+  "competencias": [
+    "React",
+    "Gestão de Projetos",
+    "Machine Learning",
+    "Java",
+    "Python"
+  ],
+  "performance": {
+    "avaliacoes_desempenho": [
+      {
+        "ciclo": "2023-H2",
+        "nota": 8.1
+      },
+      {
+        "ciclo": "2024-H1",
+        "nota": 7.0
+      }
+    ],
+    "metas_atingidas_percentual": 82.9
+  },
+  "engajamento": {
+    "enps_recente": 8,
+    "feedback_360_media": 4.4,
+    "comentarios_sentimento": "neutro"
+  },
+  "historico": {
+    "promocoes": 1,
+    "projetos_chave_participados": 1
+  },
+  "objetivos_carreira": "Theory low act moment their during action.",
+  "kpis_ia": {
+    "risco_burnout": 5.3,
+    "engajamento_inferido": 9.6,
+    "sentimento_medio": -0.61
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id_vaga": "VAGA_002",
+  "titulo_vaga": "Engenheiro de Software Pleno",
+  "departamento": "Tecnologia",
+  "nivel": "Pleno",
+  "descricao": "Desenvolvedor para criação e manutenção de aplicações web modernas em stack completo.",
+  "perfil_ideal_big_five": {
+    "abertura_a_experiencia": 8.0,
+    "conscienciosidade": 8.5,
+    "extroversao": 5.5,
+    "amabilidade": 6.5,
+    "neuroticismo": 3.0
+  },
+  "competencias_obrigatorias": [
+    "JavaScript",
+    "React",
+    "Python",
+    "SQL"
+  ],
+  "competencias_desejaveis": [
+    "AWS",
+    "Docker",
+    "Scrum",
+    "Comunicação"
+  ],
+  "competencias_diferenciais": [
+    "Machine Learning",
+    "Figma",
+    "Liderança"
+  ],
+  "salario_min": 7000,
+  "salario_max": 12000,
+  "requisitos_especiais": [
+    "Portfolio no GitHub",
+    "2+ anos experiência",
+    "Conhecimento em APIs REST"
+  ]
+}
