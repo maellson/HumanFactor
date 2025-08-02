@@ -29,7 +29,7 @@
 - Recomendações de contratação
 
 ### **4. 🧠 AI Coach** (`4_AI_Coach.py`) - **NOVO! ✨**
-- **Powered by Claude AI da Anthropic**
+- **Powered by ManalyticsAI**
 - Coach de carreira personalizado 24/7
 - Base de conhecimento científica integrada
 - Análise contextual do perfil do funcionário
@@ -290,6 +290,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para de
 
 ---
 
-**🧠 Desenvolvido com Claude AI da Anthropic**
+**🧠 Desenvolvido com ManalyticsAI**
 
 *Transformando a gestão de pessoas através da inteligência artificial e ciência comportamental.*

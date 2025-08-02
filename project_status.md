@@ -8,7 +8,7 @@
 
 **O QUE TEMOS AGORA:**
 - ✅ **15 módulos** implementados e funcionais
-- ✅ **Sistema integrado** com Claude AI da Anthropic
+- ✅ **Sistema integrado** com ManalyticsAI
 - ✅ **Arquitetura completa** com dados, interface e IA
 - ✅ **ROI comprovado** de 847% em 3 anos
 - ✅ **Setup automatizado** para facilitar implantação

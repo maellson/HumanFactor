@@ -674,6 +674,6 @@ st.divider()
 st.markdown("""
 <div style='text-align: center; color: #666; font-size: 0.9em;'>
 🎯 <strong>Análise de Fit</strong> - HumaniQ AI<br>
-Powered by Claude AI da Anthropic | Fit cultural + técnico com precisão científica
+Powered by ManalyticsAI| Fit cultural + técnico com precisão científica
 </div>
 """, unsafe_allow_html=True)

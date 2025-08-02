@@ -57,7 +57,7 @@ MODULES_CONFIG = {
                 "features": ["Ranking", "Fit Cultural", "Fit Técnico"]
             },
             {
-                "file": "pages/1_Disc.py",
+                "file": "pages/0_Disc.py",
                 "title": "🎯 Assessment DISC",
                 "description": "Avaliação comportamental DISC completa",
                 "status": "new",
@@ -516,7 +516,7 @@ def main():
 
     st.markdown("""
     <div style='text-align: center; color: #666; font-size: 0.9rem; margin-top: 2rem;'>
-        🧠 <strong>Powered by Claude AI da Anthropic</strong><br>
+        🧠 <strong>Powered by ManalyticsAI</strong><br>
         Transformando gestão de pessoas através de IA e ciência comportamental
     </div>
     """, unsafe_allow_html=True)

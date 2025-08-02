@@ -228,4 +228,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para de
 
 ---
 
-**Desenvolvido com 🧠 por Claude AI da Anthropic**
+**Desenvolvido com 🧠 por ManalyticsAI**

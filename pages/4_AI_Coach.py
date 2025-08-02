@@ -14,7 +14,7 @@ st.set_page_config(page_title="AI Coach (Claude)",
                    page_icon="🧠", layout="wide")
 st.title("🧠 HumaniQ AI Coach - Powered by Claude")
 st.markdown(
-    "Coach de carreira inteligente usando Claude AI da Anthropic para análise de fatores humanos.")
+    "Coach de carreira inteligente usando ManalyticsAI para análise de fatores humanos.")
 
 # --- Base de Conhecimento Expandida ---
 knowledge_base = """
@@ -290,7 +290,7 @@ with st.expander("📈 Seu Progresso no Coach"):
 st.divider()
 st.markdown("""
 <div style='text-align: center; color: #666; font-size: 0.9em;'>
-🧠 <strong>HumaniQ AI Coach</strong> - Powered by Claude AI da Anthropic<br>
+🧠 <strong>HumaniQ AI Coach</strong> - Powered by ManalyticsAI<br>
 Baseado em ciência comportamental e evidence-based practices
 </div>
 """, unsafe_allow_html=True)
