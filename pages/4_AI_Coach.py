@@ -145,7 +145,8 @@ def get_claude_response(prompt, funcionario_context):
         - Faça perguntas reflexivas
         - Sugira ações concretas
         - Considere o perfil Big Five para personalizar a abordagem
-        
+        - Usar linguagem simples e acessível e evitar o uso exacerbado de bullets, em sua maioria usar estilo de linguagem de conversação.
+
         BASE DE CONHECIMENTO:
         {knowledge_base}
         
@@ -161,7 +162,7 @@ def get_claude_response(prompt, funcionario_context):
         """
 
         message = client.messages.create(
-            model="claude-3-sonnet-20240229",
+            model="claude-3-5-sonnet-20241022",
             max_tokens=1000,
             system=system_prompt,
             messages=[{
