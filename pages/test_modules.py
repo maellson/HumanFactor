@@ -66,12 +66,14 @@ def check_json_file(filepath):
 def check_env_file():
     """Verifica configuração de ambiente"""
     env_path = ".env"
-    env_example_path = ".env.example"
     
     print_step("ENV", "Verificando configuração de ambiente...")
     
-    if not check_file_exists(env_example_path):
-        return False
+    # .env.example é opcional, não crítico
+    if os.path.exists(".env.example"):
+        print(f"  ✅ .env.example")
+    else:
+        print(f"  ⚠️ .env.example - OPCIONAL (não crítico)")
     
     if os.path.exists(env_path):
         print(f"  ✅ {env_path}")
@@ -80,8 +82,9 @@ def check_env_file():
         try:
             with open(env_path, 'r') as f:
                 content = f.read()
-                if 'ANTHROPIC_API_KEY=' in content:
-                    if 'your_anthropic_api_key_here' not in content:
+                if 'ANTHROPIC_API_KEY' in content:
+                    # Verificar se não é o valor padrão
+                    if 'your_anthropic_api_key_here' not in content and 'sk-ant-' in content:
                         print("  ✅ ANTHROPIC_API_KEY configurada")
                     else:
                         print("  ⚠️ ANTHROPIC_API_KEY precisa ser configurada")
@@ -112,11 +115,28 @@ def check_dependencies():
     
     for package in required_packages:
         try:
-            __import__(package.replace('-', '_'))
+            # Tratamento especial para alguns pacotes
+            if package == 'python-dotenv':
+                __import__('dotenv')
+            elif package == 'scikit-learn':
+                __import__('sklearn')
+            else:
+                __import__(package.replace('-', '_'))
             print(f"  ✅ {package}")
         except ImportError:
-            print(f"  ❌ {package} - NÃO INSTALADO")
-            missing_packages.append(package)
+            # Verificar se está disponível via pip list
+            try:
+                import subprocess
+                result = subprocess.run(['pip', 'show', package],
+                                      capture_output=True, text=True, timeout=5)
+                if result.returncode == 0:
+                    print(f"  ⚠️ {package} - INSTALADO mas não importável (possível problema de ambiente)")
+                else:
+                    print(f"  ❌ {package} - NÃO INSTALADO")
+                    missing_packages.append(package)
+            except:
+                print(f"  ❌ {package} - NÃO INSTALADO")
+                missing_packages.append(package)
     
     if missing_packages:
         print(f"\n  🔧 Para instalar pacotes faltantes:")
@@ -148,9 +168,8 @@ def main():
     
     main_files = [
         "generate_agents.py",
-        "generate_vagas.py", 
-        "requirements.txt",
-        ".env.example"
+        "generate_vagas.py",
+        "requirements.txt"
     ]
     
     files_ok = 0
@@ -166,18 +185,19 @@ def main():
     print_step("MODULES", "Verificando módulos Streamlit...")
     
     streamlit_modules = [
-        "1_Visão_Geral.py",
-        "2_Comparar_Cargos.py", 
-        "3_Análise_de_Fit.py",
-        "4_AI_Coach.py",
-        "5_REPLAY_Analysis.py",
-        "6_Turnover_Prediction.py",
-        "7_Executive_Dashboard.py",
-        "8_Team_Dynamics.py",
-        "9_Benefits_Optimization.py",
-        "10_Cultural_Fit_Evolution.py",
-        "11_Skill_Gap_Intelligence.py",
-        "12_Market_Intelligence.py"
+        "pages/0_Disc.py",
+        "pages/1_visao_geral.py",
+        "pages/2_Comparar_Cargos.py",
+        "pages/3_Analise_Fit.py",
+        "pages/4_AI_Coach.py",
+        "pages/5_Replay.py",
+        "pages/6_Turnover_Prediction.py",
+        "pages/7_executive_dashboard.py",
+        "pages/8_Team_Dynamics.py",
+        "pages/9_Benefits_Optimization.py",
+        "pages/10_Cultural_Fit_Evolution.py",
+        "pages/11_Skill_Gap_Intelligence.py",
+        "pages/12_Market_Intelligence.py"
     ]
     
     modules_ok = 0
@@ -270,7 +290,7 @@ def main():
         print("3. Configure: cp .env.example .env")
         print("   Edite .env com sua ANTHROPIC_API_KEY")
     
-    print("4. Teste um módulo: streamlit run 2_Comparar_Cargos.py")
+    print("4. Teste um módulo: streamlit run pages/2_Comparar_Cargos.py")
     
     return success_rate >= 70
 

@@ -137,6 +137,13 @@ MODULES_CONFIG = {
                 "description": "Inteligência de mercado e benchmarking",
                 "status": "experimental",
                 "features": ["Benchmarking", "Mercado", "Competitividade"]
+            },
+            {
+                "file": "pages/13_Mentoria_Digital.py",
+                "title": "👨‍🏫 Mentoria Digital",
+                "description": "Desenvolvimento de cultura empresarial com mentores especializados",
+                "status": "new",
+                "features": ["Claude AI", "Mentores", "Cultura", "Desenvolvimento"]
             }
         ]
     }

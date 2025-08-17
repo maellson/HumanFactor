@@ -164,9 +164,9 @@ def analisar_dinamica_equipe(df_equipe):
     # Score geral da equipe
     score_equipe = (
         compat_media * 0.4 +
-        (100 - num_conflitos * 5) * 0.3 +  # Penalizar conflitos
+        max(0, 100 - num_conflitos * 5) * 0.3 +  # Penalizar conflitos
         min(diversidade * 10, 50) * 0.2 +  # Bonificar diversidade (até 50 pts)
-        (100 - compat_min) * 0.1  # Penalizar links fracos
+        max(0, 100 - compat_min) * 0.1  # Penalizar links fracos
     )
 
     return {
@@ -639,4 +639,5 @@ st.markdown("""
 🔥 <strong>Team Dynamics Optimizer</strong> - HumaniQ AI<br>
 Otimização de equipes baseada em ciência comportamental e compatibilidade psicológica
 </div>
+
 """, unsafe_allow_html=True)
