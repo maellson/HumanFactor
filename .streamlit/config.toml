@@ -1,0 +1,40 @@
+[server]
+headless = true                  # Impede abertura automática do navegador
+port = 8080                      # Altere se necessário
+enableCORS = true               # Desabilite se estiver usando proxy reverso
+enableXsrfProtection = true      # Segurança contra requisições forjadas
+maxUploadSize = 10              # Aumente se sua aplicação receber arquivos grandes (em MB)
+maxMessageSize = 10             # Ajuste para permitir grandes volumes no websocket
+runOnSave = false                # Não reinicia app automaticamente (produção não precisa disso)
+#debug = false                   # Desativa logs de debug (não recomendado no modo dev)
+enableStaticServing = false
+fileWatcherType = "none"
+
+[theme]
+base = "light"                   # Ou "dark", conforme identidade visual
+#primaryColor = "#0068C9"         # Azul padrão corporativo (personalizável)
+#backgroundColor = "#FFFFFF"
+#secondaryBackgroundColor = "#F0F2F6"
+#textColor = "#262730"
+#font = "sans serif"
+
+[client]
+toolbarMode = "minimal"          # Esconde ferramentas de desenvolvedor
+showErrorDetails = false         # Oculta traceback detalhado (evita exposição de stacktrace)
+
+[global]
+developmentMode = false          # Força modo produção
+#showDeployButton = false         # Remove botão "Deploy"
+showWarningOnDirectExecution = false  # Evita avisos desnecessários
+
+
+[browser]
+# Evitar recarregamento automático durante upload
+gatherUsageStats = false
+
+[runner]
+# Evitar reinicializações durante upload
+fastReruns = true
+
+[ui]
+hideTopBar = true
